@@ -1,0 +1,20 @@
+{
+  "name": "phpmongokit/laravel-mongo-odm",
+  "description": "PHPMongo Laravel Adapter",
+  "license": "MIT",
+  "homepage": "http://phpmongokit.github.io/",
+  "authors": [
+    {
+      "name": "Dmytro Sokil",
+      "email": "dmytro.sokil@gmail.com"
+    }
+  ],
+  "require": {
+    "sokil/php-mongo": "1.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "PHPMongoKit\\ODM\\Adapter\\Laravel\\": "src/"
+    }
+  }
+}
