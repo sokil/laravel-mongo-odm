@@ -12,6 +12,7 @@ Register provider in `./config/app.php`:
 
 ```php
 <?php
+
 return [
     'providers' => [
         Illuminate\Support\ServiceProvider\MongoDbServiceProvider::class,
@@ -43,7 +44,7 @@ use Psr\Container\ContainerInterface;
 use Sokil\Mongo\ClientPool;
 
 Route::get('/', function (ContainerInterface $container) {
-    /** @var \Sokil\Mongo\ClientPool $clientPool */
+    /** @var ClientPool $clientPool */
     $clientPool = $container->get(ClientPool::class);
     $database = $clientPool->get('connect1');
 });
