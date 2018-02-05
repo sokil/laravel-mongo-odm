@@ -12,10 +12,10 @@ Register provider in `./config/app.php`:
 
 ```php
 <?php
-    return [
-        'providers' => [
-            Illuminate\Support\ServiceProvider\MongoDbServiceProvider::class,
-        ],
+return [
+    'providers' => [
+        Illuminate\Support\ServiceProvider\MongoDbServiceProvider::class,
+    ],
 ];
 ```
 
