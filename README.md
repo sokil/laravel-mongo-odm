@@ -3,7 +3,6 @@ Laravel PHPMongo Adapter
 
 Laravel Adapter for [PHPMongo ORM](https://github.com/sokil/php-mongo)
 
-[![Build Status](https://travis-ci.org/PHPMongoKit/laravel-mongo-odm.png?branch=master&2)](https://travis-ci.org/PHPMongoKit/laravel-mongo-odm)
 [![Total Downloads](http://img.shields.io/packagist/dt/phpmongokit/laravel-mongo-odm.svg)](https://packagist.org/packages/phpmongokit/laravel-mongo-odm)
 [![Daily Downloads](https://poser.pugx.org/phpmongokit/yii2-mongo-odm/d/daily)](https://packagist.org/packages/phpmongokit/laravel-mongo-odm/stats)
 
