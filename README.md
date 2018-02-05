@@ -51,6 +51,6 @@ use Sokil\Mongo\ClientPool;
 Route::get('/', function (ContainerInterface $container) {
     /** @var ClientPool $clientPool */
     $clientPool = $container->get(ClientPool::class);
-    $database = $clientPool->get('connect1');
+    $connection = $clientPool->get('connect1'); // Instance of Sokil\Mongo\Client
 });
 ```
