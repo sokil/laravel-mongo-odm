@@ -20,7 +20,7 @@ Register provider in `./config/app.php`:
 
 return [
     'providers' => [
-        Illuminate\Support\ServiceProvider\MongoDbServiceProvider::class,
+        PHPMongoKit\ODM\Adapter\Laravel\MongoDbServiceProvider::class,
     ],
 ];
 ```
