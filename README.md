@@ -9,7 +9,7 @@ Laravel Adapter for [PHPMongo ORM](https://github.com/sokil/php-mongo)
 
 Add composer dependency:
 ```
-composer require phpmongokit/laravel-mongo-pdm
+composer require phpmongokit/laravel-mongo-odm
 ```
 
 Register provider in `./config/app.php`:
